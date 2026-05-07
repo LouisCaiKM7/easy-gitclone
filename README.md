@@ -22,7 +22,7 @@ A cross-platform interactive tool for cloning Git repositories with a graphical 
 
 #### Option 1: Add to PATH (Recommended)
 
-1. Add `E:\0_projects\gitclone` to your system PATH environment variable
+1. Add `xxx\gitclone` to your system PATH environment variable
 2. Open a new terminal and type `gitclone` from anywhere
 
 #### Option 2: Create an Alias
@@ -30,7 +30,7 @@ A cross-platform interactive tool for cloning Git repositories with a graphical 
 Add this to your PowerShell profile (`$PROFILE`):
 
 ```powershell
-function gitclone { & "E:\0_projects\gitclone\gitclone.bat" }
+function gitclone { & "xxx\gitclone\gitclone.bat" }
 ```
 
 #### Option 3: Run Directly
@@ -49,7 +49,7 @@ chmod +x E:/0_projects/gitclone/gitclone.sh
 
 2. Create an alias in your `~/.bashrc` or `~/.zshrc`:
 ```bash
-alias gitclone='E:/0_projects/gitclone/gitclone.sh'
+alias gitclone='xxx\gitclone/gitclone.sh'
 ```
 
 3. Or run directly:
